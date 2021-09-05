@@ -1,0 +1,45 @@
+body{
+    background: black;
+}
+.starting{
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+#welcome{
+    background-color: hsl(14, 100%, 63%);
+    width: 100%;
+    height: 600px;
+}
+ 
+@keyframes hello {
+    from{box-shadow: 2px 2px 100px yellow;}
+    to{box-shadow: 2px 2px 100px rgb(52, 106, 221);}
+}
+
+.banner{
+    height: 400px;
+    width: 550px;
+    text-align: center;
+    margin-top: 110px;
+    animation-name: hello;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+}
+
+#quotes{
+    background-color: lightseagreen;
+}
+
+.quoimg1{
+    width: 600px;
+    height: 500px;
+}
+
+.quoimg2{
+    width: 600px;
+    height: 500px;
+}
