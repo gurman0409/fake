@@ -16,7 +16,7 @@ body{
  
 @keyframes hello {
     from{box-shadow: 2px 2px 100px yellow;}
-    to{box-shadow: 2px 2px 100px rgb(52, 106, 221);}
+    to{box-shadow: 2px 2px 100px rgb(36, 90, 207);}
 }
 
 .banner{
